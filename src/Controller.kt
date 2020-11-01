@@ -34,11 +34,11 @@ class Controller(private val listener:Callback){
     }
 
     fun setPlayer1(player1:String){
-        guntingBatuKertas?.setPlayer1(player1)
+        guntingBatuKertas?.setPlayer1(player1.toLowerCase())
     }
 
     fun setPlayer2(player2:String){
-        guntingBatuKertas?.setPlayer2(player2)
+        guntingBatuKertas?.setPlayer2(player2.toLowerCase())
     }
 
     fun menu():String{

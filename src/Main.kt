@@ -23,7 +23,7 @@ class Main{
                         }
                     }
                     "2" -> controller.stop()
-                    else -> println("Inputan tidak sesuai")
+                    else -> println("Inputan tidak sesuai (Hanya bisa memasukkan 1/2")
                 }
             }
         }
